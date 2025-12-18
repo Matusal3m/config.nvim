@@ -1,0 +1,4 @@
+{
+  "coc.preferences.formatOnSave": true,
+  "html.filetypes": ["html", "handlebars", "htmldjango", "blade", "hbs"]
+}
