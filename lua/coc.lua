@@ -73,7 +73,6 @@ map("n", "<Leader>qf", "<Plug>(coc-fix-current)")
 -- CocList
 map("n", "<space>a", ":<C-u>CocList diagnostics<CR>", { silent = true, nowait = true })
 map("n", "<space>e", ":<C-u>CocList extensions<CR>", { silent = true, nowait = true })
-map("n", "<space>c", ":<C-u>CocList commands<CR>",   { silent = true, nowait = true })
 map("n", "<space>o", ":<C-u>CocList outline<CR>",    { silent = true, nowait = true })
 map("n", "<space>s", ":<C-u>CocList -I symbols<CR>", { silent = true, nowait = true })
 map("n", "<space>j", ":<C-u>CocNext<CR>",            { silent = true, nowait = true })
