@@ -9,5 +9,9 @@ require("packer").startup(function(use)
     use { "neoclide/coc.nvim", branch = "release" }
     use { "mg979/vim-visual-multi", branch = "master" }
     use { "nvim-telescope/telescope.nvim" }
+    use {
+      'nvim-lualine/lualine.nvim',
+      requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+    }
 end)
 
