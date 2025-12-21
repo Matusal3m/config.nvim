@@ -1,10 +1,12 @@
 -- init.lua
 
-require("plugins")
 require("options")
+require("plugins")
+
 require("colorscheme")
-require("telescope-config")
-require("coc")
 require("keymaps")
 require("autocmd")
 
+require("telescope-config")
+require("autoclose-config")
+require("coc")

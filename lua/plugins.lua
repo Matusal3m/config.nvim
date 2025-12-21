@@ -5,9 +5,9 @@ require("packer").startup(function(use)
 
     use "wbthomason/packer.nvim"
 
-    -- use "Mofiqul/vscode.nvim"
     use { "catppuccin/nvim", as = "catppuccin" }
 
+    use 'm4xshen/autoclose.nvim'
     use { "neoclide/coc.nvim", branch = "release" }
     use { "mg979/vim-visual-multi", branch = "master" }
     use { "nvim-telescope/telescope.nvim" }
