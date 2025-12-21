@@ -1,6 +1,6 @@
 local cmd = vim.cmd
 
-require('vscode').setup()
-cmd.colorscheme "vscode"
+require('catppuccin').setup()
+cmd.colorscheme "catppuccin"
 
 require('lualine').setup()

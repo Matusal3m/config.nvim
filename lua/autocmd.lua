@@ -6,7 +6,7 @@
 -- })
 --
 
-vim.filetype.add({ -- não é um autocmd mas é melhor
+vim.filetype.add({
   extension = {
     hbs = "html",
   },

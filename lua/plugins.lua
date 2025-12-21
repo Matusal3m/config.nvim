@@ -4,7 +4,9 @@ require("packer").startup(function(use)
     use 'MunifTanjim/nui.nvim'
 
     use "wbthomason/packer.nvim"
-    use "Mofiqul/vscode.nvim"
+
+    -- use "Mofiqul/vscode.nvim"
+    use { "catppuccin/nvim", as = "catppuccin" }
 
     use { "neoclide/coc.nvim", branch = "release" }
     use { "mg979/vim-visual-multi", branch = "master" }
