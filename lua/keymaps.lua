@@ -41,3 +41,7 @@ end)
 map('n', '<leader>bo', function()
     cmd(':%bd|e#')
 end)
+
+-- Center on half page up and down
+map('n', '<C-d>', '<C-d> zz')
+map('n', '<C-u>', '<C-u> zz')
