@@ -9,4 +9,5 @@ require("autocmd")
 
 require("telescope-config")
 require("autoclose-config")
+require("gitsigns-config")
 require("coc")
