@@ -1,4 +1,5 @@
 {
   "coc.preferences.formatOnSave": true,
-  "html.filetypes": ["html", "handlebars", "htmldjango", "blade", "hbs"]
+  "html.filetypes": ["html", "handlebars", "htmldjango", "blade", "hbs"],
+  "prettier.tabWidth": 4
 }
