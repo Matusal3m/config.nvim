@@ -1,5 +1,3 @@
--- init.lua
-
 require("options")
 require("plugins")
 
@@ -11,3 +9,4 @@ require("telescope-config")
 require("autoclose-config")
 require("gitsigns-config")
 require("coc-config")
+require("grug-far-config")

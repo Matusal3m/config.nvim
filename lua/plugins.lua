@@ -12,16 +12,16 @@ require("packer").startup(function(use)
     use { "mg979/vim-visual-multi", branch = "master" }
     use { "nvim-telescope/telescope.nvim" }
     use {
-      'nvim-lualine/lualine.nvim',
-      requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+        'nvim-lualine/lualine.nvim',
+        requires = { 'nvim-tree/nvim-web-devicons', opt = true }
     }
     use 'lewis6991/gitsigns.nvim'
 
-    use{ 'anuvyklack/pretty-fold.nvim',
+    use { 'anuvyklack/pretty-fold.nvim',
         config = function()
-          require('pretty-fold').setup()
+            require('pretty-fold').setup()
         end
     }
 
+    use 'MagicDuck/grug-far.nvim'
 end)
-
