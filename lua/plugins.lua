@@ -5,7 +5,8 @@ require("packer").startup(function(use)
 
     use "wbthomason/packer.nvim"
 
-    use { "catppuccin/nvim", as = "catppuccin" }
+    -- use { "catppuccin/nvim", as = "catppuccin" }
+    use { "miikanissi/modus-themes.nvim" }
 
     use 'm4xshen/autoclose.nvim'
     use { "neoclide/coc.nvim", branch = "release" }

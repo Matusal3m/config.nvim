@@ -1,6 +1,4 @@
-local cmd = vim.cmd
-
-require('catppuccin').setup()
-cmd.colorscheme "catppuccin"
+require('modus-themes').setup()
+vim.cmd([[colorscheme modus]]) -- modus_operandi, modus_vivendi
 
 require('lualine').setup()
