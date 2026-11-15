@@ -1,9 +1,0 @@
-{
-    "coc.preferences.formatOnSave": true,
-    "html.filetypes": ["html", "handlebars", "htmldjango", "blade", "hbs"],
-    "prettier.tabWidth": 4,
-    "snippets.ultisnips.pythonPrompt": false,
-    "[php]": {
-        "coc.preferences.formatOnSave": false
-    }
-}

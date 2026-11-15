@@ -1,12 +1,13 @@
+require("bootstrap")
 require("options")
-require("plugins")
-
-require("colorscheme")
 require("keymaps")
-require("autocmd")
 
-require("telescope-config")
-require("autoclose-config")
-require("gitsigns-config")
-require("coc-config")
-require("grug-far-config")
+require("pckr").add{
+	require("plugins.treesitter"),
+	require("plugins.modus-themes"),
+	require("plugins.telescope"),
+	require("plugins.gitsigns"),
+	require("plugins.mason"),
+	require("plugins.blink"),
+}
+
